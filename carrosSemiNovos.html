@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação de Carros</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #e8e3d6;
+            margin: 20px;
+        }
+        .carro {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .semi-novo {
+            background-color: #d9c217; 
+            border: 2px solid #2d862d; 
+        }
+        .usado {
+            background-color: #1544e0; 
+            border: 2px solid #cc2d2d; 
+        }
+        .carro:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Classificação de Carros</h1>
+    <div id="listaCarros"></div>
+
+    <script src="/carrosSemiNovos.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    font-family: 'Jokerman', sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin-top: 50px;
+}
+
+.temporizador {
+    font-size: 48px;
+    color: #d35400;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
